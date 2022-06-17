@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(back1.png);
+    opacity: 1;
+    
+}
+
+body table{
+    width: 50vw;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+tr th {
+    background-color: rgb(16, 15, 15);
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: rgb(220, 216, 216);
+    
+}
+
+label{
+    width: 100%;
+}
+label input{
+    width: 60%;
+}
+
+#parking-lot{
+    text-align: center;
+    background-color: #db77cc;
+}
+
+#client-car {
+    width: 60vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    border: 1px solid #0f0f0f;
+    border-radius: 5px;
+    background-color: #db77cc;
+    padding-left: 1.5rem;
+}
+
+#register{
+    width: 15%;
+}
+
+
