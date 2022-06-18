@@ -30,7 +30,7 @@ h1{
     color: white;
     background-color: black;
     border-radius: 5px;
-    padding: 0 185px ;
+    padding: 0 185px;
 }
 
 tr:nth-child(even){
